@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "+apZyl8Q3DZunWz9yDmEXQScMieVAQpEfZsKPvDeEYM=",
-  "Source": "TransacoesProjeto",
-  "BasePath": "_content/TransacoesProjeto",
+  "Hash": "T1PK4mDD1zhTNcul3OIO5pG16gLayWJrd/FuXTNe5Go=",
+  "Source": "TransacoesProjeto.Api",
+  "BasePath": "_content/TransacoesProjeto.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

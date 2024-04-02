@@ -962,6 +962,45 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "TransacoesProjeto.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.3",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
+          "TransacoesProjeto.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TransacoesProjeto.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransacoesProjeto.Infra.dll": {}
+        }
+      },
+      "TransacoesProjeto.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TransacoesProjeto.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransacoesProjeto.Model.dll": {}
+        }
+      },
+      "TransacoesProjeto.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TransacoesProjeto.Infra": "1.0.0",
+          "TransacoesProjeto.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TransacoesProjeto.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransacoesProjeto.Service.dll": {}
+        }
       }
     }
   },
@@ -2707,6 +2746,21 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "TransacoesProjeto.Infra/1.0.0": {
+      "type": "project",
+      "path": "../infra/TransacoesProjeto.Infra.csproj",
+      "msbuildProject": "../infra/TransacoesProjeto.Infra.csproj"
+    },
+    "TransacoesProjeto.Model/1.0.0": {
+      "type": "project",
+      "path": "../TransacoesProjeto.Model/TransacoesProjeto.Model.csproj",
+      "msbuildProject": "../TransacoesProjeto.Model/TransacoesProjeto.Model.csproj"
+    },
+    "TransacoesProjeto.Service/1.0.0": {
+      "type": "project",
+      "path": "../TransacoesProjeto.Service/TransacoesProjeto.Service.csproj",
+      "msbuildProject": "../TransacoesProjeto.Service/TransacoesProjeto.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2715,7 +2769,10 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.2",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "TransacoesProjeto.Infra >= 1.0.0",
+      "TransacoesProjeto.Model >= 1.0.0",
+      "TransacoesProjeto.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2724,9 +2781,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto\\TransacoesProjeto.csproj",
-      "projectName": "TransacoesProjeto",
-      "projectPath": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto\\TransacoesProjeto.csproj",
+      "projectUniqueName": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto\\TransacoesProjeto.Api.csproj",
+      "projectName": "TransacoesProjeto.Api",
+      "projectPath": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto\\TransacoesProjeto.Api.csproj",
       "packagesPath": "C:\\Users\\Felix\\.nuget\\packages\\",
       "outputPath": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto\\obj\\",
       "projectStyle": "PackageReference",
@@ -2744,7 +2801,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\dotNetProjects\\TransacoesProjeto\\infra\\TransacoesProjeto.Infra.csproj": {
+              "projectPath": "E:\\dotNetProjects\\TransacoesProjeto\\infra\\TransacoesProjeto.Infra.csproj"
+            },
+            "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto.Model\\TransacoesProjeto.Model.csproj": {
+              "projectPath": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto.Model\\TransacoesProjeto.Model.csproj"
+            },
+            "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto.Service\\TransacoesProjeto.Service.csproj": {
+              "projectPath": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto.Service\\TransacoesProjeto.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
