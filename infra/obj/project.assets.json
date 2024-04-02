@@ -2323,11 +2323,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto.Infra\\TransacoesProjeto.Infra.csproj",
+      "projectUniqueName": "E:\\dotNetProjects\\TransacoesProjeto\\infra\\TransacoesProjeto.Infra.csproj",
       "projectName": "TransacoesProjeto.Infra",
-      "projectPath": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto.Infra\\TransacoesProjeto.Infra.csproj",
+      "projectPath": "E:\\dotNetProjects\\TransacoesProjeto\\infra\\TransacoesProjeto.Infra.csproj",
       "packagesPath": "C:\\Users\\Felix\\.nuget\\packages\\",
-      "outputPath": "E:\\dotNetProjects\\TransacoesProjeto\\TransacoesProjeto.Infra\\obj\\",
+      "outputPath": "E:\\dotNetProjects\\TransacoesProjeto\\infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Felix\\AppData\\Roaming\\NuGet\\NuGet.Config",
