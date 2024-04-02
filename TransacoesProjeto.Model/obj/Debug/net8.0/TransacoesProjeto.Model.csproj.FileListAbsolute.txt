@@ -1,0 +1,12 @@
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\bin\Debug\net8.0\TransacoesProjeto.Model.deps.json
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\bin\Debug\net8.0\TransacoesProjeto.Model.dll
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\bin\Debug\net8.0\TransacoesProjeto.Model.pdb
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\obj\Debug\net8.0\TransacoesProjeto.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\obj\Debug\net8.0\TransacoesProjeto.Model.AssemblyInfoInputs.cache
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\obj\Debug\net8.0\TransacoesProjeto.Model.AssemblyInfo.cs
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\obj\Debug\net8.0\TransacoesProjeto.Model.csproj.CoreCompileInputs.cache
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\obj\Debug\net8.0\TransacoesProjeto.Model.sourcelink.json
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\obj\Debug\net8.0\TransacoesProjeto.Model.dll
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\obj\Debug\net8.0\refint\TransacoesProjeto.Model.dll
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\obj\Debug\net8.0\TransacoesProjeto.Model.pdb
+E:\dotNetProjects\TransacoesProjeto\TransacoesProjeto.Model\obj\Debug\net8.0\ref\TransacoesProjeto.Model.dll
